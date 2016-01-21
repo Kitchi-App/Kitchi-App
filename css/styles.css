@@ -59,7 +59,7 @@ p{
  display: inline-block;
  vertical-align: middle;
  background: url(../images/couverts.png) no-repeat;
- background-size: 100% 100%;
+ background-size: 80% 80%;
  background-position: center;
  margin: 20px;
 }
@@ -88,7 +88,7 @@ p{
  padding-top: 30px;
 }
 
-.champmail {
+/*.champmail {
  display: inline-block;
  width: 70%;
  text-align: center;
@@ -110,6 +110,27 @@ p{
 
 .blanc {
  color: #fff;
+}*/
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+#mce-EMAIL {
+  width: 70%;
+  text-align: center;
+  font-size: 1.5em;
+  color: #353535;
+}
+
+#mc-embedded-subscribe {
+  width: 71.5%;
+  height: 50px;
+  color: #1A1A1A;
+  font-size: 2em;
+  font-family: 'Lobster';
 }
 
 /* RESPONSIVE STYLING */
@@ -139,12 +160,12 @@ p{
   .transfo {
     font-size: 1.2em;
   }
-  .champmail {
+  #mce-EMAIL {
    width: 50%;
    font-size: 1em;
   }
-  .lancez {
-   width: 51%;
+  #mc-embedded-subscribe {
+   width: 51.5%;
    height: 50px;
    font-size: 1.5em;
   }
@@ -166,7 +187,7 @@ p{
     width: 70%;
     display: block;
     margin: auto;
-    background-size: 100% 100%;
+    background-size: 80% 80%;
     background-position: center;
   }
   .marre {
@@ -180,12 +201,12 @@ p{
     font-size: 1.3em;
     margin-bottom: 40px;
   }
-  .champmail {
+  #mce-EMAIL {
    width: 80%;
    font-size: 1em;
   }
-  .lancez {
-   width: 81%;
+  #mc-embedded-subscribe {
+   width: 81.5%;
    height: 50px;
    font-size: 1.5em;
    margin-bottom: 40px;
